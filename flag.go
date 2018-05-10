@@ -2,7 +2,7 @@ package fftw
 
 // fftw planning flags
 
-//#include "internal/double/fftw3.h"
+//#include "fftw3.h"
 import "C"
 
 import "fmt"

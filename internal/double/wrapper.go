@@ -2,7 +2,7 @@
 package double
 
 //#cgo CFLAGS: -std=gnu99 -DHAVE_CONFIG_H -fomit-frame-pointer -malign-double -fstrict-aliasing -fno-schedule-insns -ffast-math
-//#cgo LDFLAGS: -lm
+//#cgo LDFLAGS: -lm -lfftw3
 //#include "fftw3.h"
 import "C"
 import "unsafe"
